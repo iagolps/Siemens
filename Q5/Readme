@@ -1,0 +1,5 @@
+Run it with:
+
+g++ -I /$(pwd)/Dependencies -Wall -g -Wa,-mbig-obj Q5.cpp -o Q5.exe
+
+./Q5.exe

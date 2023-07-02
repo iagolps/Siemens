@@ -1,0 +1,7 @@
+Answer for question 15.
+
+In Qt, a signal is a mechanism for communication between objects. It is used to notify other objects about events or changes that have occurred.
+
+In the example by using QObject::connect(), I connect the button's clicked signal to the buttonClicked() slot of MyObject.
+
+This means that whenever the button is clicked, the slot function will be executed, and the debug message "Button clicked!" will be printed.

@@ -1,0 +1,19 @@
+Answer for question 4.
+
+The code consist of a function ConcatRemove, that returns a string.
+
+In line 9 I find the length of the common prefix of s and t
+
+In line 13 I calculate the number of operations needed to convert s to t
+
+In line 15 I check if it's possible to convert s to t using exactly k operations
+
+In line 22 I write the main function to prompt to input values for s, t and k. Then, it calls function ConcatRemove and prints the result.
+
+The input is assumed to be correctly formatted.
+
+Run it with:
+
+g++ -Wall -g -Wa,-mbig-obj -std=c++11 Q4.cpp -o Q4.exe
+
+./Q4.exe

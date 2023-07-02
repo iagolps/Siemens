@@ -1,0 +1,21 @@
+Answer for question 3.
+
+Simple code written to be readable.
+
+The code consist of a for loop, that goes from 1 to 100.
+
+The loop contains 3 if statements.
+
+It first checks if i is multiple of 3 AND 5, if true, prints FooBaa and goes to the next cicle.
+
+If false, it checks if i is multiple of 3. If this statement is true, it prints Foo and goes to the next cicle.
+
+If false, it check if i is multiple of 5. If this statement is true, it prints Baa and goes to the next cicle.
+
+If false, it prints the value of i and goes to the next cicle.
+
+Run it with:
+
+g++ -Wall -g -Wa,-mbig-obj -std=c++11 Q3.cpp -o Q3.exe
+
+./Q3.exe

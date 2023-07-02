@@ -1,0 +1,22 @@
+PROBLEM #1
+Start the utility: bq
+Specify the relation: rel ABC
+Display the structure: di
+Exit the utility: x
+
+PROBLEM #2
+Start the utility: bq
+Specify the relation: rel XYZ
+Read the first record: re f
+Read the last record: re l
+Exit the utility: x
+
+PROBLEM #3
+Start the utility: bq
+Specify the relation: rel XYZ
+Request for key values: key
+Enter the key value: 10
+Read the record: re k
+Read the next record: re n
+Read the next record: re n
+Exit the utility: x

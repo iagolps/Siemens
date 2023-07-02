@@ -1,0 +1,7 @@
+Answer for question 11.
+
+Whith this code I first find the length of the string by iterating over each character until we encounter the null terminator '\0'.
+
+Then, I use two pointers, start and end, initialized to the first and last characters of the string, respectively.
+
+I swap the characters at the start and end positions using bitwise XOR operations, effectively reversing the string.

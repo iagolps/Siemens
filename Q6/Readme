@@ -1,0 +1,13 @@
+Answer for question 6.
+
+For practicality, the file "Q6_Tables.sql" containes the query that creates the tables needed for this exercise.
+
+In the file "Q6.sql", was developed a query that will generate the desired report with three columns: Name, Grade, and Value. It uses a combination of conditional statements, subqueries, and ordering to achieve the desired result.
+
+The CASE statement is used to handle the condition where the grade is less than 8 and replaces the name with "NULL" in those cases.
+
+The JOIN operation is used to match the value in the Students table with the corresponding grade range in the Notes table.
+
+The WHERE clause filters the students who received a grade higher than or equal to 8 or those who received a grade of 7 but fall within the range specified in the Notes table.
+
+The ORDER BY clause sorts the results first by grade in descending order, then by name in ascending order for grades 8-10, and finally by value in ascending order for grades 1-7.
